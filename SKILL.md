@@ -140,9 +140,10 @@ These are verified failures, not hypotheticals.
 
 ## Cost
 
-$1.50 per 1K page loads pay-as-you-go, down to $1.00 at scale. Flat CPM. Every account gets
-5,000 free credits per month, automatically applied. `bdata budget` shows balance and pending
-charges.
+$1.50 per 1K page loads pay-as-you-go, down to $1.00 at scale. Flat CPM.
+
+`bdata budget` shows balance and pending charges — check it before starting a large run rather
+than assuming a free allowance covers it.
 
 ## Related
 

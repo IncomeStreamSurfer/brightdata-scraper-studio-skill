@@ -6,8 +6,8 @@ scrapers for any public site, entirely from the terminal.
 Point your coding agent at a URL, describe the data you want in plain English, and get back a
 working scraper you own — plus a Collector ID that is already a live API endpoint.
 
-> **Try Bright Data:** [brdta.com/iss25](https://brdta.com/iss25) — 5,000 free credits per
-> month on every account, no card required.
+> **Try Bright Data:** [brdta.com/iss25](https://brdta.com/iss25) — get **$25 of credit** to
+> run everything in this skill.
 >
 > *That's my affiliate link. It costs you nothing extra and helps support work like this.*
 
@@ -53,7 +53,7 @@ Every gotcha in the skill is a failure hit in real use, not a guess:
 ## Requirements
 
 - Node.js 20+
-- A Bright Data account — [brdta.com/iss25](https://brdta.com/iss25)
+- A Bright Data account — [brdta.com/iss25](https://brdta.com/iss25) for $25 of credit
 
 No global install needed. The skill runs everything through `npx -p @brightdata/cli`.
 
@@ -66,8 +66,10 @@ No global install needed. The skill runs everything through `npx -p @brightdata/
 
 ## Cost
 
-$1.50 per 1K page loads pay-as-you-go, down to $1.00 at scale. Every account gets 5,000 free
-credits per month, automatically applied. Run `bdata budget` to check your balance.
+$1.50 per 1K page loads pay-as-you-go, down to $1.00 at scale. Sign up through
+[brdta.com/iss25](https://brdta.com/iss25) for $25 of credit — that's roughly 16,000 page
+loads, far more than you need to work through everything here. Run `bdata budget` to check
+your balance.
 
 ## Contributing
 
