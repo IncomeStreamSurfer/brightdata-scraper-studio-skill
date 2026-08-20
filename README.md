@@ -13,11 +13,27 @@ working scraper you own — plus a Collector ID that is already a live API endpo
 
 ## Install
 
+**Claude Code**
+
 ```bash
 git clone https://github.com/IncomeStreamSurfer/brightdata-scraper-studio-skill.git ~/.claude/skills/brightdata-scraper-studio
 ```
 
-That's it. Claude Code picks the skill up on the next session — no config, no restart.
+**opencode**
+
+```bash
+git clone https://github.com/IncomeStreamSurfer/brightdata-scraper-studio-skill.git ~/.config/opencode/skills/brightdata-scraper-studio
+```
+
+Either way it's picked up on the next session — no config, no restart. Same `SKILL.md`, same
+frontmatter, both agents read it as-is.
+
+**Already have it in Claude Code?** Symlink instead of cloning twice, so there's one source of
+truth to edit:
+
+```bash
+ln -s ~/.claude/skills/brightdata-scraper-studio ~/.config/opencode/skills/brightdata-scraper-studio
+```
 
 **Cursor / Codex:** clone anywhere and point your rules file at `SKILL.md`, or copy its
 contents into `.cursor/rules` or `AGENTS.md`.
